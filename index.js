@@ -1,7 +1,7 @@
-const express = require('express')
-const cors = require('cors')
-const dotenv = require('dotenv')
-const sgMail = require('@sendgrid/mail')
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+import sgMail from '@sendgrid/mail';
 
 dotenv.config()
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
