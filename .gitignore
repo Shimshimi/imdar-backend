@@ -1,0 +1,19 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore sensitive information (e.g., environment variables)
+.env
+
+# dependencies
+node_modules/
